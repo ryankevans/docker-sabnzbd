@@ -18,6 +18,7 @@ RUN apt-get -q update
 RUN apt-get install -qy --force-yes sabnzbdplus
 RUN apt-get install -qy --force-yes sabnzbdplus-theme-classic sabnzbdplus-theme-mobile sabnzbdplus-theme-plush
 RUN apt-get install -qy --force-yes par2 python-yenc unzip unrar
+RUN apt-get install -qy --force-yes ruby
 
 # apt clean
 RUN apt-get clean &&\
